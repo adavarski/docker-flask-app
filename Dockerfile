@@ -4,7 +4,8 @@ LABEL maintainer adavarski
 RUN mkdir /app
 
 COPY requirements.txt /app
-ADD app /
+
+ADD app /app
 
 WORKDIR /app
 
